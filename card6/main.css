@@ -1,0 +1,75 @@
+.main{
+    width: 500px;
+    height: 400px;
+    background: gray;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.top{
+    width: 500px;
+    height: 75px;
+    background: silver;
+    box-sizing: border-box;
+}
+
+.middle{
+    width: 500px;
+    height: 200px;
+    background: darkslateblue;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.bottom{
+    width: 500px;
+    height: 125px;
+    background: grey;
+    box-sizing: border-box;
+}
+
+.mini{
+    width: 60px;
+    height: 25px;
+    background: darkslateblue;
+    border-radius: 10%;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+}
+
+.fa-bars{
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+
+.box{
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    background:darkorchid;
+}
+
+.field{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    position: absolute;
+    bottom: -35px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

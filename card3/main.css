@@ -1,0 +1,46 @@
+body{
+    background: aquamarine;
+}
+
+.column1, .column2, .column3{
+    background: darkslategray;
+    width: 250px;
+    height: 300px;
+    padding-top: 40px;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sign{
+    justify-content: center;
+    display: flex;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    font-size: small;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.columns{
+    width: 810px;
+    display: flex;
+    justify-content: space-between;
+}

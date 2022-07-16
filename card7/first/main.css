@@ -1,0 +1,61 @@
+.wrap {
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+
+}
+
+.a {
+    width: 100%;
+    height: 198px;
+    background: cadetblue;
+    margin: 2px;
+}
+
+.father {
+    width: 100%;
+    height: 398px;
+    display: flex;
+}
+
+.b {
+    width: 67%;
+    height: 398px;
+    background: rebeccapurple;
+    margin: 2px;
+}
+
+.c {
+    width: 33%;
+    height: 398px;
+    background: cornflowerblue;
+    margin: 2px;
+}
+
+.br {
+    border-radius: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    .wrap {
+        height: 500px;
+    }
+
+    .father {
+        flex-direction: column;
+    }
+
+    .a {
+        height: 100px;
+    }
+
+    .b {
+        width: 100%;
+        height: 300px;
+    }
+
+    .c {
+        width: 100%;
+        height: 100px;
+    }
+}
